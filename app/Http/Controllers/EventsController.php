@@ -103,6 +103,7 @@ class EventsController extends BaseController
         echo "<pre>";
         print_r($allEvents);
 echo "</pre>";
+return view('event',compact('allEvents'));
     }
 
 
